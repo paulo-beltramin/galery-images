@@ -1,0 +1,23 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+
+.container-header{
+    background-color: rgb(180, 116, 240);
+    padding: 16px 0;
+    display: flex;
+     justify-content: space-around;
+     border-bottom: 16px solid rgba(114, 6, 114, 0.726);
+}
+
+.title{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 24px;
+    
+}

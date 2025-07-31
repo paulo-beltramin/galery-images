@@ -1,5 +1,4 @@
-
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,17 +6,86 @@
 }
 
 
-.container-header{
+.container-header {
     background-color: rgb(180, 116, 240);
     padding: 16px 0;
     display: flex;
-     justify-content: space-around;
-     border-bottom: 16px solid rgba(114, 6, 114, 0.726);
+    justify-content: space-around;
+    border-bottom: 16px solid rgba(114, 6, 114, 0.726);
 }
 
-.title{
+.title {
     text-transform: uppercase;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 24px;
-    
+
+}
+
+.btn {
+    background-color: black;
+    padding: 4px 16px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.container-forms {
+    text-align: center;
+    padding: 24px 0;
+    background-color: rgba(121, 23, 121, 0.733);
+    display: none;
+}
+
+.container-forms p {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.container-forms form input {
+    padding: 4px 12px;
+    width: 400px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.container-forms button {
+    background-color: black;
+    width: 92px;
+    padding: 4px 0;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.container-forms button:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.container-forms .btn-remove {
+    background-color: rgba(255, 0, 0, 0.651);
+    outline: none;
+    border: none;
+
+}
+
+
+.container-forms .btn-remove:hover {
+    background-color: rgba(218, 2, 2, 0.521);
+
+}
+
+.container-forms .forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
 }

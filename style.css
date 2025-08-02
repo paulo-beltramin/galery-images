@@ -139,3 +139,28 @@
     text-align: center;
     opacity: 0;
 }
+
+/* responsividade */
+
+    @media screen and (min-width:320px) and (max-width:768px){
+        .container-forms .forms{
+           display: flex;
+           flex-direction: column;
+          
+        }
+
+        .container-forms .forms input{
+             width: 90%;
+        }
+
+       .container-images .list {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+           
+        }
+
+      .list li img{
+         width: 100%;
+         height: 100%;
+      }
+    }
